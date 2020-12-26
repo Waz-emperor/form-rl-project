@@ -1,0 +1,122 @@
+body {
+  background-color: #888685;
+}
+
+form {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+input {
+  font-size: 22px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.lmg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 10px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.log {
+  font-size: 40px;
+  -webkit-transition: background-color 2s ease-out, padding 2s;
+  transition: background-color 2s ease-out, padding 2s;
+}
+
+.log:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+}
+
+.reg {
+  font-size: 40px;
+  -webkit-transition: background-color 2s ease-out, padding 2s;
+  transition: background-color 2s ease-out, padding 2s;
+}
+
+.reg:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+}
+
+.userf {
+  position: relative;
+  left: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pasw {
+  position: relative;
+  left: -10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cb {
+  width: 20px;
+  height: 20px;
+}
+
+.em {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.ea {
+  width: 540px;
+}
+
+.pas {
+  width: 480px;
+}
+
+.sub {
+  position: relative;
+  font-size: 40px;
+  left: 10px;
+  width: 540px;
+  background-color: #1ab188;
+}
+
+.note {
+  text-align: center;
+  color: yellow;
+}
+/*# sourceMappingURL=styles.css.map */

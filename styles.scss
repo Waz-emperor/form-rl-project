@@ -1,0 +1,112 @@
+@import "var";
+
+body {
+    background-color: $body-bg;
+}
+
+
+form {
+    background:rgba($form-bg,.9);
+    padding: 40px;
+    max-width:600px;
+    margin:40px auto;
+    border-radius:$br;
+    box-shadow:0 4px 10px 4px rgba($form-bg,.3);
+  }
+
+  input {
+    font-size: 22px; 
+
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    list-style:none;
+    padding:0;
+    margin:0 0 40px 0;
+
+  }
+
+  .lmg {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 30px;
+    }
+
+    .log {
+    font-size: 40px;
+    transition: background-color 2s ease-out, padding 2s;
+    }
+
+    .log:hover {
+        background-color: black;
+        color: white;
+        font-size: 1.2em;
+        }
+    
+
+    .reg {
+        font-size: 40px;
+        transition: background-color 2s ease-out, padding 2s;
+    }
+
+    .reg:hover {
+        background-color: black;
+        color: white;
+        font-size: 1.2em;
+        } 
+    
+
+    .userf {
+        position: relative;
+        left: -20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pasw {
+        position: relative;
+        left: -10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .cb {
+        width: 20px;
+        height: 20px;
+    }
+
+    .em {
+     position: relative;  
+     top: 10px;
+      left: 10px;
+    }
+
+    .ea {
+        width: 540px;
+    }
+
+    .pas {
+        width: 480px;
+    }
+    
+    .sub {
+        position: relative;
+        font-size: 40px;
+        left: 10px;
+        width: 540px;
+        background-color: $main;
+    }
+
+    .note {
+        text-align: center;
+        color: yellow;
+    }
+
+    
